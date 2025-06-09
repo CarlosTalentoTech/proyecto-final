@@ -53,3 +53,23 @@
   font-size: 1.2rem;
   text-decoration: none;
 }
+
+.icons-container {
+  position: relative;
+}
+
+.cart-icon {
+  width: 35px;
+}
+
+#products-counter {
+  font-family: Geist-Regular;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #00638d;
+  color: white;
+  border-radius: 50px;
+  padding: 5px 8px;
+  font-size: 0.7rem;
+}
