@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="assets/styles/header.css" />
     <link rel="stylesheet" href="assets/styles/footer.css" />
     <link rel="stylesheet" href="assets/styles/form.css" />
+    <script src="assets/js/main.js" defer></script>
   </head>
   <body>
+    <p id="visit-counter"></p>
+
     <header>
       <nav class="nav-bar">
         <div class="image-container">
@@ -24,6 +27,10 @@
             <li class="links-item"><a class="link" href="sobre.html">Sobre</a></li>
             <li class="links-item"><a class="link" href="contacto.html">Contacto</a></li>
           </ul>
+        </div>
+        <div class="icons-container">
+          <img src="assets/icons/shopping-cart-outline-svgrepo-com.svg" alt="" class="cart-icon" />
+          <div id="products-counter">0</div>
         </div>
       </nav>
     </header>

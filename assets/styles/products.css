@@ -85,3 +85,20 @@
   background-color: #04344d;
   color: white;
 }
+
+.product-card-buttons-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.remove-product-btn {
+  background-color: #dc3545;
+  color: white;
+  border: 1.75px solid #dc3545;
+}
+
+.remove-product-btn:hover {
+  background-color: #c82333;
+  border-color: #c82333;
+}
