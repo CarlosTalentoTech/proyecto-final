@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/styles/index.css" />
     <link rel="stylesheet" href="assets/styles/header.css" />
     <link rel="stylesheet" href="assets/styles/footer.css" />
+    <link rel="stylesheet" href="assets/styles/form.css" />
   </head>
   <body>
     <header>
@@ -26,6 +27,33 @@
         </div>
       </nav>
     </header>
+
+    <main class="form">
+      <h1 class="form-title">FORMULARIO DE CONTACTO</h1>
+      <form>
+        <div class="form-group">
+          <label for="nombre">Nombre completo <span class="required">*</span></label>
+          <input type="text" id="nombre" name="nombre" required maxlength="20" placeholder="John Doe" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Correo Electrónico <span class="required">*</span></label>
+          <input type="email" id="email" name="email" required placeholder="johndoe@hotmail.com" />
+        </div>
+
+        <div class="form-group">
+          <label for="celular">Celular <span class="required">*</span></label>
+          <input type="tel" id="celular" name="celular" required pattern="[0-9]{10}" placeholder="3001234567" />
+        </div>
+
+        <div class="form-group">
+          <label for="mensaje">Mensaje <span class="required">*</span></label>
+          <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escribe tu mensaje aquí..."></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Enviar Mensaje</button>
+      </form>
+    </main>
 
     <footer>
       <div class="footer">
